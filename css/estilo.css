@@ -1,0 +1,337 @@
+﻿*{
+    margin: 0;
+    padding: 0; 
+}
+
+html{
+    background-color: #C0C0C0;
+    font-family: Verdana, sans-serif;
+}
+
+.containerPrincipal{
+    background-color: #696969;
+    border: solid 3px #696969;
+    border-top: 0;
+    width: 1300px;
+    margin-top: 0;
+    margin: auto;
+    height: 100%;
+}
+
+.logo{
+    background-color: #DCDCDC;
+    height: 50px;
+    width: 100%;
+    text-align-last: center;
+    margin-top: 0px;
+}
+
+.causaraiz{
+    width: 95%;
+    height: 65px;
+    resize: none;
+}
+.acaoimediata{
+    width: 95%;
+    height: 65px;
+    resize: none;
+}
+.acaocorretiva{
+    width: 95%;
+    height: 65px;
+    resize: none;   
+}
+.testes{
+    width: 95%;
+    height: 30px;
+    resize: none;  
+}
+.analista{
+    width: 95%;
+    height: 30px;
+    resize: none; 
+}
+.observacao{
+    width: 95%;
+    height: 65px;
+    resize: none; 
+}
+.tipificacaoRecomendada{
+    margin-bottom: 10px;
+    width: 97%;
+    height: 70px;
+    resize: none;
+    background-color: white;
+    padding: 5px;
+    border: solid 1px #A9A9A9;
+    margin-bottom: 0px;
+}
+.textoEncerramento{
+    margin-top: 0px;
+    width: 98%;
+    padding-left: 5px;
+    height: 400px;
+    resize: none; 
+    border: solid 1px #A9A9A9;
+    background-color: white;
+}
+.Tipificação{
+    margin-top: 0px;
+    padding: 3px;
+    padding-left: 8px;
+    height: 510px;
+    /*border: solid 1px #A9A9A9;*/
+}
+.divbotoes{
+    margin-top: 2px;
+    padding: 5px;
+    margin-bottom: 10px; 
+    border: solid 1px #A9A9A9;
+    height: 100px;  
+}
+.dadosdaEsquerda{
+    padding-top: 2px;
+    padding-left: 8px;
+    border: solid 1px #A9A9A9;
+    height: 470px;
+}
+
+.left{
+    float: left;
+    padding: 0px;
+}
+.right{
+    float: right;
+    padding: 0px;
+    padding-right: 15px;
+}
+.clear{
+    clear: both;
+}
+label{
+    display: block;
+}
+
+#dados{
+    background-color: #DCDCDC;
+    /*margin-top: 10px;*/
+    margin-right: 4px;
+    width: 545px;
+    height: 710px;
+    border: solid 2px #A9A9A9;
+    float: left;
+    padding: 8px;
+}
+#tipificacao{
+    background-color:#DCDCDC;
+    /*margin-top: 10px;*/
+    width: 710px;
+    height: 710px;
+    border: solid 2px #A9A9A9;
+    float: left;
+    padding: 8px;
+}
+
+footer{
+    text-decoration: #696969;
+    clear: both;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    text-decoration: #696969;
+}
+
+textarea:focus{
+    border: 2px solid #1668C4;
+}
+
+textarea{
+    background-color: azure;
+    /*font-family: Arial;*/
+}
+
+select{
+    margin-top: 0px;
+    block-size: 30px;
+    max-block-size: 30px;
+    inline-size: auto;
+    width: 400px;
+}
+tr td select{  
+    width: 150px;
+    height: 20px;
+ 
+}
+tr td input{
+    width: 280px;
+    height: 20px;
+}
+#tipoSiteLexmark{
+    width: 25px;
+    height: 20px;
+}
+#incidentlexmarkOnOff{
+    padding: 60px;
+}
+
+option{
+    block-size: 35px;
+}
+
+.divEncerramentoLexmark{
+    border: solid 1px #A9A9A9;
+    padding: 2px;
+    padding-left: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/************************************** CSS Botão ************************************************/
+.btnGerar {
+  padding: 20px 12px;
+  border-radius: 4px;  
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 15px;   
+  background-color: #40E0D0;  
+}
+.btnGerar-info {
+  border-color: #46b8da;
+  color: #fff;
+}
+.btnGerar-info:hover, .btnGerar-info:focus, .btnGerar-info:acitive {
+  border-color: #269abc;
+  color: #fff;
+}
+
+
+    /************************************** CSS Menu ************************************************/
+
+    .contemMenu{
+        padding-top: 0%;
+        height: 40px;
+        background-color: #222;
+        width: 100%;
+        padding: 0px;
+    }
+
+    .contemMenu ul{
+        list-style: none;
+        position: relative;
+        /*padding: 15px;*/
+        height: 40px;
+        margin: 0px;
+    }
+    .contemMenu ul li{
+        width: 200px;
+        float: left;
+        height: 40px;
+    }
+    .contemMenu a{
+        /*padding: 15px;*/
+        display: block;
+        text-decoration: none;
+        text-align: center;  /*Alinhar o text quanto a margem lateral*/
+        background-color: #222;
+        color: #fff;
+        height: 40px;
+        line-height: 40px; /*Alinhar o text quanto a margem superior*/
+    }
+    .contemMenu ul ul{
+        position: absolute;
+        visibility: hidden;
+    }
+    .contemMenu ul li:hover ul{
+        visibility: visible;
+    }
+    .contemMenu a:hover{
+        background-color: darkgray;
+    }
+    .contemMenu ul ul li{
+        float: none;
+        border-bottom: solid 1px #ccc;
+    }
+    #menu{
+        background-color: #222;
+        margin: 10%;
+        margin-top: 0px;
+        width: 100%;
+        height: 40px;
+        background-color: #222;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+/* CSS campo Busca Tipificação */
+
+
+#txtBusca{
+  background-color: white;
+  border:solid 2px #5F9EA0;
+  border-radius:10px;
+  width:400px;
+  height:32px;
+  font-weight:bold;
+
+}
+
+/************ CSS Página formulário Atualizar ***************************/
+
+.divPendingAtualizar{
+    padding: 10px;
+    padding-bottom: 15px;
+    /*background-color: blue;*/
+}
+.divPendingAtualizar select{
+    width: 450px;
+}
+#userNotFound{
+    /*background-color: #C0C0C0;*/
+    border: solid 1px #A9A9A9;
+    padding-left: 5px;
+    height: 530px;
+    font-size: 15px;
+}
+#userNotFound select{
+    width: 150px;
+}
+#userNotFound input{
+    /*width: 130px;*/
+    height: 25px;
+}
+.TextoEmail{
+    height: 60px;
+    width: 98%;
+    background-color: white;
+}
+#EmailUserNotFound{
+    height: 30px;
+    width: 80%;
+    background-color: white;
+    /*border: solid 1px #269abc;   #hora2 #minuto1 #minuto2  */
+}
+#userNotFound #hora1 input{
+    width: 15px;
+}
+
+/************ CSS Página formulário Atualizar User Indisponivel ***************************/
+
+.alturaCampos{
+    height: 25px;
+}
+
+.larguraCampos{
+    width: 80%;
+}
+#userIndisponivel select{ 
+    width: 150px;
+}
+#hora3 #hora4{
+   width: 20px; 
+}
+
+#userIndisponivel{
+    border: solid 1px #A9A9A9;
+    padding-left: 5px;
+    height: 530px;
+    font-size: 15px;
+}
