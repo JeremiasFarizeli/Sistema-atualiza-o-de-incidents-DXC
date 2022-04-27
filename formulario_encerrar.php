@@ -14,7 +14,7 @@
                                 
                 <!-- *****************   Inicio Tipificação categorias  ************************ -->         
 
-
+                <!--
                 <label for="categorias"> <strong>Escolha de Tipificação</strong> v1.2 de 22/05/2020 </label>   
                 <select id="categorias" name="categorias">
                         
@@ -29,7 +29,9 @@
                         ?>
                                 
                 </select>
-                            
+                -->
+                
+                
             <!-- ***************   Fim Tipificação categorias e Inicio Tipificação  *************** -->
                 
                 <select id="tipif" name="tipif" style="display:none">
